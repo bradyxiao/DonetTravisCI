@@ -22,7 +22,7 @@ namespace CSharpTravisCI.Tests
         public void DescTest()
         {
             TravisCI travisCI = new TravisCI();
-            Assert.AreEqual(4, travisCI.Desc(1, 3));
+            Assert.AreEqual(-2, travisCI.Desc(1, 3));
             Console.WriteLine("RESULT " + (-2));
         }
     }
