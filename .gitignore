@@ -1,0 +1,11 @@
+*.swp
+*.suo
+*.user
+Backup*
+
+#folder
+*/bin
+*/obj
+*.vs
+packages
+TestResults
