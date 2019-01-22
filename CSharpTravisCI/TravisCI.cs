@@ -11,5 +11,10 @@ namespace CSharpTravisCI
         {
             return x + y;
         }
+
+        public int Desc(int x, int y)
+        {
+            return x - y;
+        }
     }
 }

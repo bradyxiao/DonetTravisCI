@@ -18,6 +18,13 @@ namespace CSharpTravisCI.Tests
             Console.WriteLine("RESULT " + 4);
         }
 
+        [Test()]
+        public void DescTest()
+        {
+            TravisCI travisCI = new TravisCI();
+            Assert.AreEqual(4, travisCI.Desc(1, 3));
+            Console.WriteLine("RESULT " + (-2));
+        }
     }
 }
 
